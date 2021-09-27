@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form on fruits</title>
+<style>
+table{
+width:400px;
+}
+fieldset{
+border: 2px thick #1a0308;
+width: 400px;
+margin:auto;
+}
+.btn{
+background-color:lightgray;
+width:80px;
+height:30px;
+border-color: black;
+border-radius: 5px;
+}
+</style>
+</head>
+<body>
+<form method="get" >
+<fieldset style="background-color:#f9f9f9">
+<h1 style="padding-left:110px; background-color:lightgray;">The World of
+Fruit</h1>
+<h2 style="padding-left:200px">Fruit survey</h3>
+<table>
+<tr>
+<td>
+<label for="name">Name</label>
+</td>
+<td>
+<input type="text" maxlength="50" size="30" id="name">
+</td>
+</tr>
+<tr>
+<td>
+<label for="adress">Adress</label>
+</td>
+<td>
+<input type="text" maxlength="50" size="30" id="adress">
+</td>
+</tr>
+<tr>
+<td>
+<label for="email">Email</label>
+</td>
+<td>
+<input type="text" maxlength="50" size="30" id="email">
+</td>
+</tr>
+<tr>
+<td>
+<label for="pieces">How many pieces of fruit you eat per day?</label>
+</td>
+<td>
+<br />
+<input type="radio" name="fruitpieces" value="0" id="pieces">0<br />
+<input type="radio" name="fruitpieces" value="1" id="pieces">1<br />
+<input type="radio" name="fruitpieces" value="2" id="pieces">2 <br />
+<input type="radio" name="fruitpieces" value="more than 2"
+id="pieces">More than 2 <br />
+</td>
+</tr>
+<tr>
+<td>
+<label for="fav_fruit">My favourite fruit</label>
+</td>
+<td>
+<br />
+<select size="4">
+<option value="Apple">Apple</option>
+<option value="Banana">Banana</option>
+<option value="Plum">Plum</option>
+<option value="Pomegranate">Pomegranate</option>
+<option value="Papaya">Papaya</option>
+<option value="Watermelon">Water melon</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>
+<br />
+<label for="brochure">Would you like a brochure?</label>
+</td>
+<td>
+<br />
+<input type="checkbox" id="brochure">
+</td>
+</tr>
+<tr>
+<td colspan="2" style="text-align:center;">
+<br />
+<input type="submit" value="submit" class="btn">
+</td>
+</tr>
+</table>
+</fieldset>
+</form>
+</body>
+</html>
